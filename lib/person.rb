@@ -82,10 +82,10 @@ class Person
         return "♪ another one bites the dust ♫"
     end
 
-    def call_friend(bredrin)
+    def call_friend(brother)
         self.happiness= @happiness + 3
-        bredrin.happiness= bredrin.happiness + 3
-        return "Hi #{bredrin.name}! It's #{self.name}. How are you?"
+        brother.happiness= brother.happiness + 3
+        return "Hi #{brother.name}! It's #{self.name}. How are you?"
     end
 
     def start_conversation(person, topic)
